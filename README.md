@@ -17,7 +17,6 @@ We are a growing technology-driven organization focused on **real-world projects
 
 We believe in **learning by building**, not just theory.
 
-🌐 Website: [https://growthera.co.in](https://growthera.co.in)  
 📍 Location: India  
 📧 Contact: **support@growthera.co.in**
 
