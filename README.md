@@ -1,76 +1,77 @@
-# 🚀 Growthera Softech
+📚 Student Record Management System (Python CLI)
+A simple Command Line Interface (CLI) based Student Record Management System built with Python that allows users to:
+➕ Add student records
+📄 View all students
+✏️ Update student details
+❌ Delete student records
+💾 Store data persistently using a JSON file
+This project is ideal for beginners learning Python, file handling, and CRUD operations.
+🚀 Features
+Menu-driven CLI interface
+Add student with:
+Unique Student ID
+Name
+Marks for 4 subjects (Bengali, Math, Python, Java)
+View all stored student records
+Update existing student details
+Delete student by ID
+Automatic data persistence using students_record.json
+Error handling for invalid inputs
+🛠️ Tech Stack
+Language: Python 3
+Storage: JSON file
+Concepts Used:
+Classes & Objects
+File Handling
+Exception Handling
+CRUD Operations
+📂 Project Structure
+student-record-system/
+│
+├── student_record_system.py     # Main application file
+├── students_record.json         # Auto-created data file (after first run)
+└── README.md
+▶️ How to Run
+1️⃣ Clone the repository
+git clone https://github.com/your-username/student-record-system.git
+cd student-record-system
+2️⃣ Run the program
+python student_record_system.py
+🧾 Menu Options
+Add Student
+View All Students
+Update Student
+Delete Student
+Exit
+💡 Example Workflow
+Choose option 1 → Enter name → Enter unique ID → Enter marks
+Choose option 2 → View all stored records
+Choose option 3 → Update student details
+Choose option 4 → Delete a student by ID
+Choose option 5 → Save and exit
+🔐 Data Storage
+All records are stored in:
+students_record.json
 
-**Begin your tech journey with hands-on internship training**
-
-Welcome to **Growthera Softech** 👋  
-We are a growing technology-driven organization focused on **real-world projects, skill-based learning, and industry-ready development experience**.
-
----
-
-## 🌟 About Us
-
-**Grothera Softech** provides students and early-career developers the opportunity to:
-- Work on **real-world industry projects**
-- Gain **hands-on development experience**
-- Learn modern technologies with proper guidance
-- Build strong portfolios & GitHub profiles
-
-We believe in **learning by building**, not just theory.
-
-📍 Location: India  
-📧 Contact: **support@growthera.co.in**
-
----
-
-## 💼 Internship Domains
-
-We regularly offer internships in the following domains:
-
-- 💻 Software Development  
-- 🌐 Web Development  
-- ☕ Java Backend Development  
-- 🎨 Frontend Development  
-- 🐍 Python Development  
-- ⚙️ C / C++ Development  
-
-🔹 **Mode:** Remote  
-🔹 **Who can apply:** Students, freshers & passionate learners
-
----
-
-## 🛠️ Tech Stack We Work With
-
-- **Backend:** Java, Spring Boot, REST APIs, MySQL  
-- **Frontend:** HTML, CSS, JavaScript, React  
-- **Tools:** Git, GitHub, VS Code, IntelliJ IDEA  
-- **Practices:** Clean Code, Version Control, Real-World Development Flow  
-
----
-
-## 📂 What You’ll Find in Our GitHub
-
-- ✅ Real-world project repositories  
-- ✅ Internship task repositories  
-- ✅ Open-source & learning-focused codebases  
-- ✅ Beginner-friendly issues & documentation  
-
-We encourage interns to **learn, contribute, and grow publicly on GitHub**.
-
----
-
-## 🤝 Join Us
-
-Interested in working with us or applying for an internship?
-
-📩 **Email your resume:** support@growthera.co.in  
-🔗 **Apply here:** https://docs.google.com/forms/d/e/1FAIpQLSciL9LKAYFztV5KGezfekWfIUr17oNi7ZD227T7dq-YOvZ3eQ/viewform  
-
-✨ *Shortlisted candidates will be contacted by our team.*
-
----
-
-## 📢 Let’s Grow Together
-
-Follow us, contribute, and build your tech career with **Grothera Softech** 🚀  
-
-⭐ Don’t forget to star our repositories if you find them useful!
+This file is automatically created when the program runs for the first time.
+⚠️ Known Limitations / Improvements
+Input validation can be enhanced
+Marks input format needs better parsing
+Search functionality exists but is not linked to the menu
+No percentage/grade calculation (can be added)
+No GUI (CLI only)
+🧠 Future Enhancements
+Add search by student ID
+Calculate total, percentage, and grade
+Add subject-wise validation
+Convert to GUI using Tkinter / PyQt
+Migrate storage to SQLite or PostgreSQL
+Add unit tests
+🤝 Contributing
+Contributions are welcome!
+Feel free to fork the repo and submit a pull request.
+📜 License
+This project is open-source and available under the MIT License.
+👩‍💻 Author
+Sangita Bera
+Python Developer | Beginner Projects
